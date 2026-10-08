@@ -1,0 +1,20 @@
+# Visual Studio
+.vs/
+x64/
+Zeta/x64/
+*.user
+*.suo
+*.vcxproj.user
+
+# Build output
+Debug/
+Release/
+*.exe
+*.obj
+*.pdb
+*.ilk
+*.log
+*.tlog
+
+# Private notes
+ZETA_PROGRESS.md

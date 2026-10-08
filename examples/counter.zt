@@ -1,0 +1,19 @@
+// Closures: each counter remembers its own count.
+// Prints: 1 2 3 1 (one per line)
+
+fn make_counter() {
+  let count = 0;
+  fn counter() {
+    count = count + 1;
+    return count;
+  }
+  return counter;
+}
+
+let a = make_counter();
+let b = make_counter();
+
+print a();
+print a();
+print a();
+print b();

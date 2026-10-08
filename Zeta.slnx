@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="Zeta.vcxproj" Id="9ed6e164-ffef-4e8e-b4e5-c06587192009" />
+</Solution>

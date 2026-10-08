@@ -1,0 +1,9 @@
+// Fails on purpose: greet takes one argument but is called with none.
+// Prints: hi bob
+// Then:   Error on line 9: expected 1 arguments but got 0
+
+fn greet(name) {
+  print "hi " + name;
+}
+greet("bob");
+greet();

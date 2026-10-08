@@ -1,0 +1,7 @@
+let x = 10;
+
+fn square(n) {
+  return n * n;
+}
+
+print square(x);   // prints 100

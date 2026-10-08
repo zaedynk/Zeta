@@ -1,0 +1,16 @@
+// FizzBuzz from 1 to 15. Zeta has no % operator, so divisible() subtracts.
+// Prints: 1 2 fizz 4 buzz fizz 7 8 fizz buzz 11 fizz 13 14 fizzbuzz (one per line)
+
+fn divisible(n, d) {
+  while (n >= d) {
+    n = n - d;
+  }
+  return n == 0;
+}
+
+for (let i = 1; i <= 15; i = i + 1) {
+  if (divisible(i, 15)) print "fizzbuzz";
+  else if (divisible(i, 3)) print "fizz";
+  else if (divisible(i, 5)) print "buzz";
+  else print i;
+}
